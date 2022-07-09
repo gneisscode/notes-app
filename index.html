@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+       <header>
+        <h1>Notes App</h1>
+       </header>
+       <form id="notes-form">
+            <input type="text" name="notes_title" id="title" autofocus placeholder="Title for Note"/>
+            <textarea id="notes" placeholder="Write your brief note here"></textarea>
+            <input type="text" name="notes_tag" id="tags" placeholder="enter tags seperated by commas" />
+            <input type="submit" value="Add Note">
+       </form>   
+
+       <div id="display_notes"></div><div></div>
+    </div>
+</body>
+</html>
